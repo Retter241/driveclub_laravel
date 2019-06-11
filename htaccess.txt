@@ -1,0 +1,8 @@
+        
+RewriteEngine On
+
+
+ RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+  #RewriteRule ^(.*)$ E:/OpenServer7.2/openserver/OSPanel/domains/LaravelOfficeWice/public/ [L]
+  RewriteRule ^(.*)$ D:/openserver/OSPanel/domains/dimamlab/public/ [L]
